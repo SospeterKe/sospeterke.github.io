@@ -1,0 +1,83 @@
+<DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head> 
+   
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/awsomenessTvLogo-removebg-preview.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <h1>About Us</h1>
+        
+</section>
+ 
+ <!-----about-us content----->
+ 
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>World's best University</h1>
+            <p>This University offeres quality assurance and you should definitely come check it out.
+That is only if you are worthy enough because we don't just take anyone!</p>
+               <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/panda2.png">
+        </div>
+    </div>
+</section>
+
+ 
+<!-----Javascript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+        function hideMenu(){
+        navLinks.style.right = "-200";
+    }
+</script>
+   
+ 
+<!------footer----->
+   
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This University offeres quality assurance and you should definitely come check it out.<br> That is only if you are worthy enough because we don't just take anyone!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Sos</p>
+</section>
+    
+    
+</body>
+    
+</html>
+    

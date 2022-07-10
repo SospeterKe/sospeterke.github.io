@@ -3,14 +3,14 @@
 
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <title>Awesome University</title>
+    <title>courses</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
 </head> 
    
 <body>
-<section class="header">
+<section class="sub-header">
     <nav>
         <a href="index.html"><img src="images/awsomenessTvLogo-removebg-preview.png"></a>
         <div class="nav-links" id="navLinks">
@@ -28,27 +28,10 @@
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
     
-<div class="text-box">
-    <h1>Awesome Sos University</h1>
-    <p>In this University you will get to learn some pretty awesome stuff and meet with cool people from all over the world.<br> All you need to join is awesomeness and you might just land yourself a spot in this amazing school.</p>
-    <a href="" class="hero-btn">Visit Us To Know More</a>
-</div>   
+    <h1>Courses</h1>
+        
 </section>
 
- 
-<!-----Javascript for toggle menu---->
-<script>
-    var navLinks = document.getElementById("navLinks");
-    
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-        function hideMenu(){
-        navLinks.style.right = "-200";
-    }
-</script>
-   
-    
 <!-----course----->
     
 <section class="course">
@@ -71,36 +54,7 @@
         </div>
     </div>
 </section>
-   
-<!---- campus ---->
 
-<section class="campus">
-    <h1>Our Global Campus</h1>
-    <p>We are located in various parts of the globe.</p>
-    
-    <div class="row">
-        <div class="campus-col">
-            <img src="images/eldy.jpg">
-            <div class="layer">
-                <h3>ELDORET</h3>
-            </div>
-        </div>
-        <div class="campus-col">
-            <img src="images/nai.jpg">
-            <div class="layer">
-                <h3>NAIROBI</h3>
-            </div>
-        </div>
-        <div class="campus-col">
-            <img src="images/KISUMU.png">
-            <div class="layer">
-                <h3>KISUMU</h3>
-            </div>
-        </div>
-        
-    </div>
-</section>   
-   
 <!----Facilities---->
    
 <section class="facilities">
@@ -126,38 +80,20 @@
     </div>
 
 </section>
-   
-<!----testimonials---->
-   
-<section class="testimonials">
-     <h1>What Our Students Say</h1>
-    <p>Let us take a listen to what some of our students have to say about us.</p>
+ 
+<!-----Javascript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
     
-    <div class="row">
-        <div class="testimonials-col">
-            <img src="images/lave.jpg">
-            <div>
-                <p>This is the best University in the world and I am very thankful to my cool bro Sos for pioneering such a great school. What I like most about it is the cafeteria because I love  eating.</p>
-                <h3>Lavender</h3>
-            </div>
-        </div>
-        <div class="testimonials-col">
-            <img src="images/daddy.jpg">
-            <div>
-                <p>Indeed this University is one of the most advanced schools in East and Central Africa. I would definitely recommend it to anyone in need of a good place to study.</p>
-                <h3>Daddy</h3>
-            </div>
-        </div>
-    </div>
-</section>
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+        function hideMenu(){
+        navLinks.style.right = "-200";
+    }
+</script>
    
-<!----call to action---->
-   
-<section class="cta">
-    <h1>Enroll Now For Our Various Courses</h1>
-    <a href="" class="hero-btn">CONTACT US</a>
-</section>
-   
+ 
 <!------footer----->
    
 <section class="footer">
