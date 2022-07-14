@@ -13,7 +13,7 @@
     position: relative;
 }
 #preloader{
-    background: #000 url(Images/loading2.gif) no-repeat center center;
+    background: #000 url(images/loading2.gif) no-repeat center center;
     background-size: 30%;
     height:100vh;
     width: 100%;
