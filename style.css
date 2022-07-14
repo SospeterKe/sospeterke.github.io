@@ -12,6 +12,14 @@
     background-size: cover;
     position: relative;
 }
+#preloader{
+    background: #000 url(myImages/loading2.gif) no-repeat center center;
+    background-size: 30%;
+    height:100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
 nav{
     display:flex;
     padding: 2% 6%;
